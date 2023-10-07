@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url("https://png.pngtree.com/png-vector/20221122/ourmid/pngtree-thinking-man-illustration-with-question-mark-and-light-bulb-for-business-png-image_6475461.png");
+   background-size: 50%;
+   width: 70%;
+
+   background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  #mytext {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+
+  }
+  .image {
+    
+margin-top: -8.9%;
+margin-left: 104%; /* Adjust margin-left to your preference */
+border:2px #0056b3; /* Apply border radius of 10px */
+}
+
+  @media (max-width: 768px) {
+    #mytext {
+      width: 100%;
+    }
+  }
